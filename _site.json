@@ -1,0 +1,132 @@
+{
+ "built": "2026-11-14T22:22:59Z",
+ "bt": 1794694979,
+ "seed": 20261114,
+ "base": "https://midnight-archive-vrc.github.io/ma-testbed/",
+ "data": "rabbit",
+ "corpus": "English Wikipedia: the 500,000 most-read articles and Vital articles Level 5",
+ "books": 500000,
+ "runs": 4729,
+ "towers": {
+  "J": 66999,
+  "K": 48598,
+  "L": 52880,
+  "H": 26435,
+  "G": 31468,
+  "A": 106730,
+  "E": 43694,
+  "R": 11520,
+  "S": 43272,
+  "B": 24207,
+  "Y": 10910,
+  "M": 3643,
+  "T": 29644
+ },
+ "floors": {
+  "J": 91,
+  "K": 73,
+  "L": 74,
+  "H": 37,
+  "G": 47,
+  "A": 143,
+  "E": 59,
+  "R": 17,
+  "S": 62,
+  "B": 38,
+  "Y": 19,
+  "M": 6,
+  "T": 42
+ },
+ "floors_total": 708,
+ "lv": 146,
+ "volumes": {
+  "files": 33809,
+  "books_per_volume": 14.79,
+  "avg_kb": 23.6,
+  "max_kb": 53.9,
+  "p95_kb": 32.4,
+  "mb": 778.2,
+  "gzip_ratio_sample": 2.48
+ },
+ "bays_with_books": 33809,
+ "bay_slots_on_used_floors": 33984,
+ "volume_ordinals": 35856,
+ "pages": 789158,
+ "pages_per_book": 1.58,
+ "links": {
+  "marked": 5526604,
+  "per_book_avg": 11.05,
+  "distinct_targets_per_book_median": 9,
+  "p90": 18,
+  "books_without_live_links": 1061,
+  "dropped_target_not_shelved": 0
+ },
+ "text_chars_avg": 1075,
+ "search": {
+  "shards": 246,
+  "max_kb": 63.8,
+  "avg_kb": 63.6,
+  "entries": 527759
+ },
+ "plaques": 5069,
+ "misc": {
+  "a/tonight.json": 1742,
+  "f/fresh.json": 82,
+  "x/malformed.json": 1588,
+  "x/huge.json": 4453977,
+  "x/redirect-dir/index.html": 2344,
+  "x/redirect-target.json": 2354,
+  "x/untrusted.json": 2395,
+  "x/wrong-file.json": 2367,
+  "x/empty.json": 0,
+  "x/plate-ok.jpg": 349401,
+  "x/oversize.jpg": 701047
+ },
+ "folders_mb": {
+  "v": 298.7,
+  "s": 15.3,
+  "a": 0.0,
+  "f": 0.0,
+  "x": 5.3,
+  "credits": 133.0
+ },
+ "folders_files": {
+  "v": 13150,
+  "s": 247,
+  "a": 1,
+  "f": 1,
+  "x": 9,
+  "credits": 46
+ },
+ "site": {
+  "files": 13458,
+  "mb": 452.3
+ },
+ "seconds": 131,
+ "sites": [
+  {
+   "name": "ma-testbed",
+   "base": "https://midnight-archive-vrc.github.io/ma-testbed/",
+   "first_vol": 0,
+   "last_vol": 13629,
+   "volumes": 13150,
+   "files": 13458,
+   "mb": 452.3
+  },
+  {
+   "name": "ma-testbed-b",
+   "base": "https://midnight-archive-vrc.github.io/ma-testbed-b/",
+   "first_vol": 13776,
+   "last_vol": 35700,
+   "volumes": 20659,
+   "files": 20662,
+   "mb": 479.5
+  }
+ ],
+ "volumeSites": [
+  [
+   13776,
+   "https://midnight-archive-vrc.github.io/ma-testbed-b/"
+  ]
+ ]
+}
